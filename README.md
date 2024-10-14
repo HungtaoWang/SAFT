@@ -25,13 +25,13 @@ pip install transformers==4.41.2
 **Train**
 
 ```
-bash script/train_SAFT_{GNN/GAU}_$dataset.sh
+bash script/$dataset/train_SAFT_{GNN/GAU}_$dataset.sh
 ```
 
 **Test**
 
 ```
-bash script/test_SAFT_{GNN/GAU}_$dataset.sh
+bash script/$dataset/test_SAFT_{GNN/GAU}_$dataset.sh
 ```
 
 
